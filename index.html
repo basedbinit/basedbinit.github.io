@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Based.Binit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div id="tsparticles"></div>
+
+<div class="page-container">
+
+  <div class="banner">
+    <img src="assets/xyz123.jpg" alt="banner">
+  </div>
+
+  <div class="card">
+    <img src="assets/profile.png" id="avatar">
+    <h1 id="name"></h1>
+    <p id="bio"></p>
+
+    <div class="status">
+      <div class="status-main">
+        <span id="status-dot" class="dot"></span>
+        <span id="status-text">Loading...</span>
+      </div>
+      <p id="status-subtext" class="status-subtext"></p>
+    </div>
+  </div>
+
+  <div class="link-buttons">
+    <a id="instagram" href="https://www.instagram.com/based.binit" class="link-btn instagram">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+    <a id="discord" href="https://discord.gg/Vcj7BcrD" class="link-btn discord">
+      <i class="fa-brands fa-discord"></i> Discord
+    </a>
+    <a id="spotify" href="https://open.spotify.com/user/31sjk3qcxo34vcclejpwsl7i7psa" class="link-btn spotify">
+      <i class="fa-brands fa-spotify"></i> Spotify
+    </a>
+    <a id="chess" href="https://www.chess.com/member/MOIBINIT" class="link-btn chess">
+      <i class="fa-solid fa-chess"></i> Chess.com
+    </a>
+    <a id="reddit" href="https://www.reddit.com/u/basedbinit_" class="link-btn reddit">
+      <i class="fa-brands fa-reddit-alien"></i> Reddit
+    </a>
+  </div>
+
+  <div class="section-block">
+    <p class="section-title">WHAT AM I DOING RN?</p>
+    <div class="section-divider"></div>
+    <div class="activity-box">
+      <p id="activity-text">prolly idling or offline</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <p class="section-title">
+      <img src="https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png" alt="chess.com logo" class="chess-title-logo">
+      RECENT CHESS.COM MATCHES
+    </p>
+    <div class="section-divider"></div>
+    <div id="chess-matches" class="chess-matches">
+      <p class="chess-loading">Loading matches...</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
