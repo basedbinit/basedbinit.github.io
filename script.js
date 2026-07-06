@@ -7,15 +7,6 @@ document.getElementById("spotify").href = CONFIG.spotify;
 document.getElementById("chess").href = CONFIG.chess;
 document.getElementById("reddit").href = CONFIG.reddit;
 
-tsParticles.load("tsparticles", {
-  particles: {
-    number: { value: 60 },
-    color: { value: "#ffffff" },
-    move: { enable: true, speed: 1 },
-    size: { value: 2 },
-    opacity: { value: 0.4 }
-  }
-});
 
 const DISCORD_ID = "1497555732495859852";
 
