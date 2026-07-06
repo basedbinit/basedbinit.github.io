@@ -121,6 +121,6 @@ async function loadChessMatches() {
   } catch (err) {
     container.innerHTML = `<p class="chess-loading">Couldn't load matches.</p>`;
   }
-}
+} 
 
 loadChessMatches();
