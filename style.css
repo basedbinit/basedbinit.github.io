@@ -119,7 +119,7 @@ body{
   border-radius: 20px;
   overflow: hidden;
   margin: 0 auto -20px auto;  /* was -60px, now less overlap */
-}
+} 
 .banner {
   width: 100%;
   max-width: 500px;
